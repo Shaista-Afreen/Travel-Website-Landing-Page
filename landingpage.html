@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+ <body>
+    <section class="home-page" id="home">
+   <header class="header">
+    <a href="#logo" class="Logo">Wander<span>Unbound</span></a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#contactus">Contact Us</a>
+    </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search"/>
+            <i class='bx bx-search-alt-2'></i>
+        </div>
+    </nav>
+</header>
+
+    <div class="container"> 
+        <div class="container-left">
+            <div class="content">
+  <h1>BOUNDLESS<br/> DISCOVERY</h1>                  
+             <p> Embark on a journey of discovery with WanderUnbound. From breathtaking natural wonders to vibrant 
+                    cultural experiences, our curated collection of destinations invites you to uncover the beauty and diversity our world has to offer. Whether you seek tranquil escapes or thrilling adventures, let us guide you in creating unforgettable memories across continents.   
+                    </p>
+            <div class="btns">
+                <button class="read-more">Read More</button>
+                <button class="our-blogs">Destination Discoveries</button>
+            </div>
+        <div class="chevrons">
+            <span class="chev-left">
+                <i class='bx bx-chevron-left'></i>
+            </span>
+            <span class="chev-right">
+                <i class='bx bx-chevron-right'></i>
+            </span>
+
+
+        </div>
+            
+         </div>
+        </div>
+
+        <div class="container-right">
+         <form>
+            <h4>Pick Your Destination</h4>
+            <div class="form-group">
+                <label for="destination">Your Dream Destination</label>
+                <input type="text" name="destination" id="destination"
+                placeholder="Enter destination"/>
+            </div>
+            <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <input type="text" name="budget" id="budget"
+                placeholder="Enter a budget range"/>
+            </div>
+
+
+            <div class="form-group">
+                <label for="date">Choose Your Travel Dates</label>
+                <input type="text" name="date" id="date"
+                placeholder="dd/mm/yyyy"/>
+            </div>
+            <button type="submit">Check travel package</button>
+         </form>
+        </div>
+    </div>
+</section>
+    <!--destinations section-->
+    <section class="destination-pages" id="destinations">
+        <div class="destination-place">
+            <img src="glowingbeaches.png" alt="destination" />
+            <div class="dest-content">
+                <h4>Unveiling 10 Secret Charms</h4>
+                    <p>
+                     "Unveiling 10 Secret Charms" invites you to discover hidden treasures worldwide. Explore secluded beaches, ancient cities, and cultural experiences off the beaten path. 
+                     Each destination promises unique allure and enriching memories for adventurous travelers.
+                     Discover the world's hidden gems and create memories that linger long after you return home.
+                    </p>
+                     <button class="btn">Explore Further</button>
+
+            </div>
+        </div>
+
+        <div class="destination-place">
+            <img src="dubai-nightview.jpg" alt="destination" />
+            <div class="dest-content">
+                <h4>Fantasy to Footpath</h4>
+                <p>
+                    "Fantasy to Footpath" guides you through 10 enchanting destinations where dreams become reality. Explore serene landscapes, vibrant cities, and rich cultures off the beaten path. 
+                    Immerse yourself in unique experiences and create unforgettable memories on your journey around the world.
+                </p>
+                     <button class="btn">Discover More</button>
+                     
+            </div>
+        </div>
+
+        
+        <div class="destination-place">
+            <img src="brooklynbridge.webp" alt="destination" />
+            <div class="dest-content">
+                <h4>From Dreams to Discoveries</h4>
+                <p>
+                    "From Dreams to Discoveries" takes you on a journey through 10 extraordinary destinations. 
+                    Explore diverse landscapes, immerse yourself in rich cultures, and uncover hidden gems. Each promises unforgettable experiences and the opportunity to turn travel dreams into cherished memories. </p>
+                     <button class="btn">Dive Deeper</button>
+                     
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contactus">
+        <div class="contactinfo">
+            <form>
+                <h1>Contact Us</h1>
+                <input type="text" id="firstName" placeholder="First Name" >
+                <input type="text" id="lastName" placeholder="Last Name" >
+                <input type="email" id="email" placeholder="Email" >
+                <input type="text" id="mobileno" placeholder="Mobile Number" >
+                <h2>Type your Message Here</h2>
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" value="Submit" id="button"/>
+                
+            </form>
+        </div>
+    </section>
+
+       <footer class="footer">
+          <div class="social">
+              <a href="#"><i class='bx bxl-linkedin'></i></a>
+              <a href="#"> <i class='bx bxl-github'></i></a>
+              <a href="#"><i class='bx bxl-whatsapp'></i></a>
+              <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+          </div>
+          <ul class="list">
+              <li>
+                  <a href="#">FAQ</a>
+              </li>
+              <li>
+                  <a href="#">Services</a>
+              </li>
+              <li>
+                  <a href="#">About Me</a>
+              </li>
+              <li>
+                  <a href="#">Contact</a>
+              </li>
+              <p class="copyright">
+                  © WanderUnbound | All Rights Reserved
+              </p>
+          </ul>
+       </footer>
+</body>
+</html>
